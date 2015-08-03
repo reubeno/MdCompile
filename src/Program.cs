@@ -226,7 +226,7 @@ namespace MdCompile
                 stringsToCompile.Add("}");
             }
 
-            stringsToCompile.Add($"#line default");
+            stringsToCompile.Add("#line default");
 
             return string.Join(Environment.NewLine, stringsToCompile);
         }
@@ -297,15 +297,5 @@ namespace MdCompile
 
         private static string GetContent(IEnumerable<string> lines, CodeBlock block) =>
             string.Join(Environment.NewLine, lines.Skip(block.StartLineIndex).Take(block.LineCount));
-
-        private static int CountPrefixWhitespaceChars(string s)
-        {
-            int i;
-            for (i = 0; (i < s.Length) && char.IsWhiteSpace(s[i]); ++i)
-            {
-            }
-
-            return i;
-        }
     }
 }
