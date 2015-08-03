@@ -6,11 +6,7 @@
     <authors>reubeno</authors>
     <owners>reubeno</owners>
     <tags>MdCompile readme.md Markdown compile C# CSharp</tags>
-    <projectUrl>https://github.com/reubeno/MdConmpile</projectUrl>
-    <!-- 
-      <licenseUrl>https://reubeno.github.io/NClap/LICENSE.txt</licenseUrl>
-      <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    -->
+    <projectUrl>https://github.com/reubeno/MdCompile</projectUrl>
     <description>
         MdCompile is a simple tool to extract and compile C# code blocks in Markdown files.
     </description> 
