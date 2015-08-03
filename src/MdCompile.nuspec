@@ -1,0 +1,24 @@
+<?xml version="1.0" ?> 
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <id>MdCompile</id> 
+    <version>1.0</version> 
+    <authors>reubeno</authors>
+    <owners>reubeno</owners>
+    <tags>MdCompile readme.md Markdown compile C# CSharp</tags>
+    <projectUrl>https://github.com/reubeno/MdConmpile</projectUrl>
+    <!-- 
+      <licenseUrl>https://reubeno.github.io/NClap/LICENSE.txt</licenseUrl>
+      <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    -->
+    <description>
+        MdCompile is a simple tool to extract and compile C# code blocks in Markdown files.
+    </description> 
+    <summary>$description$</summary> 
+    <language>en-US</language>
+  </metadata>
+  <files>
+    <file src="MdCompile.targets" target="build" />
+    <file src="bin\$Configuration$\MdCompile.exe" target="build" />
+  </files>
+</package>
